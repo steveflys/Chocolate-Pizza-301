@@ -14,3 +14,70 @@
     float: left;
     min-height: 1px; 
 }
+
+body {
+    font-family: Helvetica, serif;
+}
+
+header {
+    height: 70px;
+    border-bottom: 10px ridge gray;  
+}
+
+header img {
+    float: left;
+    margin-right: 5px;
+    height: 60px;
+}
+
+div {
+    width: 15%;
+    float:  left;
+    margin-left: 20px;
+    display: block;
+    text-align: left;
+    line-height: 1px;
+}
+#del {
+    font-size: 46px;
+    font-family: 'Yellowtail', cursive;
+}
+
+main h1 {
+    font-family: 'Oswald', sans-serif;
+}
+
+main div {
+    display: inline-block;
+}
+
+main div p {
+    float: left;
+    font-size: 8px;
+    line-height: 1px;
+    color: grey;
+}
+
+p {
+    font-size: 10px;
+}
+
+nav ul {
+    float: right;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li img {
+    height: 20px;
+}
+  
+nav ul li:nth-child(6) {
+    margin-right: 10px;
+} 
+
+li {
+    font-family: 'Patrick Hand', cursive;
+}
